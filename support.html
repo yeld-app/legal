@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yeld Support</title>
+  <meta name="description" content="Support page for the Yeld app." />
+  <style>
+    :root {
+      --bg: #0f1115;
+      --text: #ffffff;
+      --muted: #9aa0a6;
+      --accent: #2aff8a;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text",
+                   "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: radial-gradient(
+        circle at top,
+        rgba(42, 255, 138, 0.12),
+        var(--bg) 60%
+      );
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px;
+    }
+
+    .container {
+      max-width: 520px;
+      width: 100%;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 600;
+      margin-bottom: 12px;
+      letter-spacing: -0.02em;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: var(--muted);
+      margin-bottom: 24px;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.03);
+      border-radius: 16px;
+      padding: 20px;
+    }
+
+    .label {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 32px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>Yeld Support</h1>
+    <p>
+      If you have any questions, issues, or feedback about the Yeld app,
+      feel free to reach out.
+    </p>
+
+    <div class="card">
+      <div class="label">Contact</div>
+      <a href="mailto:dev.yeld@proton.me">dev.yeld@proton.me</a>
+    </div>
+
+    <footer>
+      © 2026 Yeld
+    </footer>
+  </main>
+</body>
+</html>
